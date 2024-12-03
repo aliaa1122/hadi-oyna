@@ -1,5 +1,5 @@
 let clickCount = 0;
-let money = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000; // Başlangıç parası sıfır
+let money = 0; // Başlangıç parası sıfır
 const items = [];
 const equipped = [];
 const rarities = ["Kötü", "Normal", "İyi", "Destansı", "Efsanevi", "Aşırı Mistik"];
