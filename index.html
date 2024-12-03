@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tıklama Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tıklama Oyunu</h1>
+    <div id="game-container">
+        <button id="click-button">Tıkla!</button>
+        <p>Tıklama Sayısı: <span id="click-count">0</span></p>
+        <p>Para: <span id="money-count">1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span></p>
+        <button id="convert-button">50 Tıklamayı 1 Para Yap</button>
+        <button id="inventory-button">Envanter</button>
+        <button id="shop-button">Mağaza</button>
+    </div>
+    <div id="inventory" class="hidden">
+        <h2>Envanter</h2>
+        <ul id="inventory-list"></ul>
+        <button id="close-inventory">Kapat</button>
+    </div>
+    <div id="shop" class="hidden">
+        <h2>Mağaza</h2>
+        <ul id="shop-list"></ul>
+        <button id="close-shop">Kapat</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
